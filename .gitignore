@@ -1,0 +1,29 @@
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment Variables & Secrets
+.env
+.streamlit/secrets.toml
+
+# Virtual Environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# Project Specific Temporary & Output Files
+uploads/
+reports/*.pdf
+database/*.db
+test_out.txt
+test_adk.py
+
+# IDE / OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,5 @@
+[server]
+# Disable the file watcher to prevent Streamlit from reloading and wiping 
+# the session state (logging users out) when reports or databases are written.
+fileWatcherType = "none"
+runOnSave = false
